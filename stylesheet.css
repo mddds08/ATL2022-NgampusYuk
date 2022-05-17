@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-color: #F5F5F5;
+}
+
+header {
+    background-image: url("asset/header.svg");
+    background-size: cover;
+    background-clip: border-box;
+    height: 600px;
+    color: white;
+    width: 100%;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 2em;
+}
+
+nav li {
+    margin: 1em 2em;
+    font-weight: bold;
+    border-bottom: 2px solid #3737FF;
+}
+
+nav li:hover {
+    transition: all 100ms ease-in;
+    border-bottom: 2px solid white;
+}
+
+nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.hero-imgWrapper {
+    position: relative;
+}
+
+.dot1 {
+    position: absolute;
+    top: -10px;
+    left: 424px;
+}
+
+.dot2 {
+    position: absolute;
+    top: 174px;
+}
+
+.img-header {
+    position: absolute;
+    margin-top: 8px;
+}
+
+.heroHeading {
+    margin-top: 50px;
+}
+
+.heroHeading h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+
+.heroHeading h1 span {
+    color: #FFFF37;
+}
+
+.heroHeading p {
+    width: 500px;
+    font-size: 1.5em;
+    margin-top: 24px;
+}
+
+.heroHeading a {
+    display: block;
+    color: #3737FF;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.btnHero {
+    background-color: #FFFF37;
+    text-align: center;
+    margin-top: 24px;
+    width: 180px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+main {
+    color: #2C2C2C;
+}
+
+.contentWrapper-1 {
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.contentHeading-1 {
+    text-align: center;
+    width: 50%;
+}
+
+.contentHeading-1 span {
+    color: #3737FF;
+}
+
+.contentWrapper-1 p {
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.imgDotBlue {
+    position: absolute;
+    right: 0px;
+}
+
+.mainContent {
+    padding-top: 100px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.boxWrapper-1,
+.textContent {
+    width: 50%;
+}
+
+.ImgContent {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: #3737FF;
+    margin-right: 2em;
+}
+
+.ImgContent-overlay {
+    position: absolute;
+    border: 2px solid #3737FF;
+    width: 400px;
+    height: 300px;
+    top: 20px;
+    left: 20px;
+    border-radius: 12px;
+}
+
+.textContent {
+    padding-top: 2.5em;
+}
+
+.ImgContent img {
+    border-radius: inherit;
+}
+
+.iconWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    background-color: #2C2C2C;
+    height: 2px;
+    width: 95%;
+    margin: 1.5em 0;
+}
+
+.iconWrapper img {
+    margin-right: 2em;
+}
+
+.imgDotBlue2 {
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+}
+
+.contentWrapper-2 {
+    background-color: #3737FF;
+    padding: 100px 64px;
+    margin-top: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.contentWrapper-2 h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5em;
+}
+
+.contentWrapper-2 h1 span {
+    color: #FFFF37;
+}
+
+.contentWrapper-2 p {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.imgDotYellow img {
+    position: absolute;
+}
+
+.dot5 {
+    top: 0;
+    right: 2em;
+}
+
+.dot6 {
+    bottom: 0;
+    left: 4em;
+}
+
+.boxWrapper-2 {
+    margin-top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxContent-2 {
+    position: relative;
+    background-color: #FFFF37;
+    color: white;
+    width: 300px;
+    height: 400px;
+    margin: 0 24px;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    box-shadow: -8px 8px 32px #2c2c2ca4;
+}
+
+.textOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2em 1.5em;
+    line-height: 1.5em;
+    text-shadow: 4px 0px 8px #2C2C2C;
+}
+
+.textOverlay p {
+    font-size: 1em;
+    line-height: 1.5em;
+    width: fit-content;
+
+}
+
+.boxContent-2:nth-child(1) {
+    background-image: url(asset/img/itb-bg.jpg);
+    background-size: cover;
+}
+
+.boxContent-2:nth-child(2) {
+    background-image: url(asset/img/unhas-bg.jpg);
+    background-size: cover;
+}
+
+.boxContent-2:nth-child(3) {
+    background-image: url(asset/img/ubt-bg.jpg);
+    background-size: cover;
+}
+
+.btnContent {
+    text-decoration: none;
+    color: #3737FF;
+    font-size: 1em;
+    background-color: #FFFF37;
+    padding: 12px 26px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.contactWrapper {
+    padding: 80px;
+    text-align: center;
+}
+
+.boxContact {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactHeading h1 {
+    font-size: 2.5em;
+    font-family: 'Inter', sans-serif;
+}
+
+.contactHeading p {
+    margin-top: 16px;
+    font-size: 1.2em;
+}
+
+.form p {
+    text-align: left;
+}
+
+.form input,
+.form textarea,
+.btnKirim {
+    width: 400px;
+    margin: 1em 0 2.5em 0;
+    padding: 8px 12px;
+    border: 1px solid #3737FF;
+    border-radius: 6px;
+    resize: none;
+}
+
+.form p:nth-child(2) {
+    margin-top: 40em;
+}
+
+.btnKirim {
+    display: block;
+    text-decoration: none;
+    background-color: #3737FF;
+    color: white;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #3737FF;
+    margin-top: 100px;
+    padding: 40px 80px;
+    color: white;
+}
+
+.footerlogo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.fLine {
+    background-color: #FFFF37;
+    height: 4px;
+    width: 40%;
+    margin: 1em 0;
+}
+
+.footerItem {
+    display: flex;
+}
+
+.footerItem a {
+    color: #FFFF37;
+
+    text-decoration: none;
+}
+
+.fLeft {
+    margin-right: 2.5em;
+    font-weight: 500;
+}
+
+.fLeft p,
+.fRight p {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.footerItem ul li {
+    margin: 4px;
+}
